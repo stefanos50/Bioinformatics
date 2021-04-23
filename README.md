@@ -32,4 +32,6 @@ Figure 11.7 shows an HMM with two states α and β. When in the α state, it is 
 likely to emit purines (A and G). When in the β state, it is more likely to emit pyrimidines (C and T). Decode the most likely sequence of states (α/β) for sequence GGCT.
 Use log-scores, rather than straight probability scores.
 
+![](Images/HMM.png)
+
 ![](Images/Screenshot_2.png)
