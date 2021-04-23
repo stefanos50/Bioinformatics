@@ -3,7 +3,7 @@ Two players play the following game with two sequences of length n and m nucleot
 (either the first or the second) and one nucleotide from the other. The player who
 cannot move loses. Who will win? Describe the winning strategy for each n and 
 
-![](IMAGES/Screenshot_1.png)
+![](Images/Screenshot_1.png)
 
 A622.py -
 Give an algorithm which computes the optimal overlap alignment, and runs in time
@@ -16,7 +16,7 @@ w into a sequence v is a problem of finding a substring v
 0 of v that maximizes the score of
 alignment s(v0, w) among all substrings of v.
 
-![](IMAGES/Screenshot_3.png)
+![](Images/Screenshot_3.png)
 
 
 A637.py - 
@@ -25,11 +25,11 @@ In the chimeric alignment problem, a string v and a set of strings {w1, . . . , 
 the problem is to find max1≤i,j≤N s(v, wi ◦ wj ) where wi ◦ wj is the concatenation of wi and
 wj (s(·, ·) stand for the score of optimal global alignment).
 
-![](IMAGES/Screenshot_4.png)
+![](Images/Screenshot_4.png)
 
 A114.py -
 Figure 11.7 shows an HMM with two states α and β. When in the α state, it is more
 likely to emit purines (A and G). When in the β state, it is more likely to emit pyrimidines (C and T). Decode the most likely sequence of states (α/β) for sequence GGCT.
 Use log-scores, rather than straight probability scores.
 
-![](IMAGES/Screenshot_2.png)
+![](Images/Screenshot_2.png)
